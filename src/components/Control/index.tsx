@@ -13,7 +13,7 @@ export interface ControlsProps extends Partial<DraggableProps> {
 }
 
 export const Control: React.FC<ControlsProps> = ({
-  title = '🎛️ React Control',
+  title = 'React Control',
   visible = true,
   children,
   defaultPosition = { x: -16, y: 16 },

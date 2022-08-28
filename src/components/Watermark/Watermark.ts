@@ -35,7 +35,7 @@ class Watermark {
   private img_width: number = 100;
   private img_height: number = 160;
   private userOptions: Options = {
-    text: '仅用于办理XXXX，他用无效。',
+    text: '',
     fontSize: 23,
     fillStyle: 'rgba(100, 100, 100, 0.4)',
     watermarkWidth: 280,
